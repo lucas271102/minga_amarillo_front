@@ -13,7 +13,7 @@ export default function Footer () {
     <div className='w-full'>
       <img src={footerbg} alt="" className='rounded-[60%_60%_100%100%/_0%_0%_100%_100%] h-44 min-[640px]:w-screen h-56'/>
     </div>
-    <div className='w-screen md:w-2/3 flex flex-col container mx-auto flex flex-col justify-end items-center min-[640px]:flex-row p-9 justify-center space-x-12'>
+    <div className='w-screen md:w-2/3 flex  container mx-auto flex flex-col  items-center min-[640px]:flex-row p-9 justify-center sm:space-x-12'>
       <h2 className='text-black text-center md:text-left mb-4 md:mb-0 mx-4 md:mx-0'>Home</h2>
       <h2 className='text-black text-center md:text-left mb-4 md:mb-0 mx-4 md:mx-0'>Mangas</h2>
       <h2 className='text-orange-600 text-center md:text-left text-2xl font-semibold mb-4 md:mb-0 mx-4 md:mx-0'>Minga雪</h2>

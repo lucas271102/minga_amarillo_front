@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
@@ -9,6 +10,9 @@ module.exports = {
 
 
   extend: {
+    fontFamily: {
+      'sans': ['Poppins'],
+    },
     colors:{
       primary:"#222"
     },
